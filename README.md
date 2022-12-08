@@ -34,4 +34,5 @@
 - ADR terms are mapped to Preferred Terms (PTs) suggested by MedDRA, and proteins are mapped to Ensembl protein ID.
 - <pre><code>$ADR example : C0000727, C0000731 / Protein example : ENSP00000410269, ENSP00000379364 </code></pre>
 
-##License
+## License
+-  LAPINE is licensed under the MIT License.
