@@ -1,1 +1,1 @@
-This folder is for output files from LAPINE codes
+This folder is for output files from LAPINE codes.
