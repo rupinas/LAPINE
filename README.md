@@ -9,10 +9,9 @@
   - <pre><code>$ pip install git+ https://github.com/xiangyue9607/BioNEV.git</code></pre>
   
 - python 3.xx (for other python files)
-  - Numpy
-  - Pandas
-  - scikit-learn
-
+  - Numpy : 1.18.5
+  - Pandas : 1.3.0
+  - scikit-learn : 0.23.1
 
 ## Usage
 
