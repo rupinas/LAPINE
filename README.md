@@ -9,9 +9,9 @@
   - <pre><code>$ pip install git+ https://github.com/xiangyue9607/BioNEV.git</code></pre>
   
 - python 3.xx (for other python files)
-  -Numpy
-  -Pandas
-  -scikit-learn
+  - Numpy
+  - Pandas
+  - scikit-learn
 
 
 ## Usage
@@ -22,7 +22,8 @@
 
 3.network.py
 
-4.embedding.py (in python 2.7)
+4.
+<pre><code>$ bionev --input './result/network.edgelist' --output './result/emb.txt' --method 'node2vec' --workers 40 --dimension 128 --directed True --p 4 --q 0.5 </code></pre>
 
 5.model.py
 
