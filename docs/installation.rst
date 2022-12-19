@@ -59,6 +59,6 @@ you can easily install by git command.
 If you are not familar to git, you can download `zip file <https://github.com/rupinas/LAPINE/archive/refs/heads/main.zip/>`_ and unzip it to your working directory.
 
 Reference
-_________
+---------
 
 .. [1] `BioNEV <https://doi.org/10.1093/bioinformatics/btz718/>`_
