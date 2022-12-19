@@ -49,7 +49,7 @@ parameters
 - dimension : the dimensions of embedding for each node. The default value is 128 which is optimized by cross-validation
 - p, q : two parameters that control the biased random-walk procedure. A high p-value ensures that the walker is less likely to the visited node. A high q value ensures that the walker is more likely to visit the node which is close to the node walker just passed. The default values of p, q are 4 and 0.5 which is optimized by cross-validation.
 
-more details are vailable at https://github.com/xiangyue9607/BioNEV
+more details are available at https://github.com/xiangyue9607/BioNEV
 
 ADR-protein relation prediction
 -------------------------------
