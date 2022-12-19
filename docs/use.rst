@@ -1,9 +1,9 @@
 How to use LAPINE
 =================
 
-All LAPINE code must be run in the Conda virtual environment built during the installation process. However, as an exception, the network embedding process must be executed in the BioNev virtual environment.
+All LAPINE code must be run in the Conda virtual environment built during the installation process. However, as an exception, the network embedding process must be executed in the BioNev virtual environment. Please execute the python files in the order described below.
 
-Download data
+1.Download data
 -------------
 
 Run data_downlaod.py in your virtual python environment (above 3.7.2) constructed by ``conda`` to download all necessary files from the public database.
@@ -15,10 +15,10 @@ Example:
   (.venv) python data_download.py
   
   
-Network construction
+2.Network construction
 --------------------
 
-Run network.py to parse a network data from protein-protein interactions from STRING database, and chmemical-protein interactions from STITCH database.
+Run network.py to parse network data from protein-protein interactions from the STRING database, and chemical-protein interactions from the STITCH database.
 
 .. code-block:: 
 
@@ -30,7 +30,7 @@ parameters
 - threshold : This parameter determines the threshold for the reliability of information included in STRING and STITCH databases. Only interactions with a confidence score higher than the parameter is used in the analysis. Therefore, a high parameter value means the use of limited high-reliability information only. The range of parameters is from 0 to 1000.
 
 
-Network embedding
+3.Network embedding
 -----------------
 
 Run the following command in the BioNEV environments (python 2.7) to generate the embedding of the constructed network.
@@ -51,7 +51,7 @@ parameters
 
 more details are available at https://github.com/xiangyue9607/BioNEV
 
-ADR-protein relation prediction
+4.ADR-protein relation prediction
 -------------------------------
 
 Run model.py to predict the association score between ADRs and proteins.
