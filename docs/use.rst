@@ -5,14 +5,29 @@ How to use LAPINE
 Download data
 -------------
 
-1.Run data_download.py
-  - Code to download all necessary files from public database
+Run data_downlaod.py in your virtual python environment (above 3.7.2) constructed by ``conda`` to download all necessary files from the public database.
+
+Example:
+
+.. code-block:: console
+
+  (.venv) data_download.py
+  
   
 Network construction
 --------------------
 
-2.Run network.py
-  - Code for parsing a network file from a database
+Run network.py to parse a network data from protein-protein interactions from STRING database, and chmemical-protein interactions from STITCH database.
+
+.. code-block:: console
+
+  (.venv) network.py --threshold 700
+
+parameters
+**********
+- threshold : This parameter determines the threshold for the reliability of information included in STRING and STITCH databases. Only inteactions with a confidence score higher than the parameter is used in the analysis. The range of parameters is from 0 to 1000.
+
+
   
 Network embedding
 -----------------
