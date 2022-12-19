@@ -34,7 +34,7 @@ You can install Bionev by git command.
     $ cd BioNEV
     $ pip install -e
     
-Detailed documnetation about BioNEV is available at this link. https://github.com/xiangyue9607/BioNEV
+Detailed documnetation about BioNEV is available at https://github.com/xiangyue9607/BioNEV.
 
 
 Install LAPINE
