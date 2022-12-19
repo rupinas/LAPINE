@@ -60,7 +60,7 @@ Run model.py to predict the association score between ADRs and proteins.
   
 parameters
 **********
-- regularization : Inverse of regularization strength of logistic regression; must be a positive float. The default value is 0.1 which is optimized by cross-validation. The recommended parameter range is 0.01 to 1.
+- regularization : Inverse of regularization strength of logistic regression, smaller values specify stronger regularization; must be a positive float. The default value is 0.1 which is optimized by cross-validation. The recommended parameter range is 0.01 to 1.
 - threshold : This parameter determines the threshold for the reliability of information included in STRING and STITCH databases. (must be the same value used in network.py)
 
  
