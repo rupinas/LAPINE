@@ -13,6 +13,8 @@ LAPINE needs Python enviroment.
 If you don't have a python environment set up we recommend you to use `Conda <https://docs.conda.io/en/latest/>`_. 
 Conda is an open source package management system and environment management system that runs on Windows, macOS, and Linux.
 
+- Python : 3.7.2
+
 Packages
 ''''''''
 
@@ -21,6 +23,11 @@ LAPINE requires the following Python packages and you can install them using con
 - Numpy : 1.18.5
 - Pandas : 1.3.0
 - scikit-learn : 0.23.1
+
+
+.. code-block::
+
+    $ conda install numpy=1.18.5
 
 BioNEV
 ''''''
