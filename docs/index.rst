@@ -20,6 +20,7 @@ Contents
 
 .. toctree::
 
-   Home <self>
-   usage
-   api
+   Introduction <self>
+   Installation
+   How to use LAPINE
+   Citation
