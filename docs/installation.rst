@@ -29,6 +29,7 @@ LAPINE uses `BioNEV <https://doi.org/10.1093/bioinformatics/btz718/>`_ in embedd
 You can install Bionev by git command.
 
 .. code-block::
+
     $ git clone https://github.com/xiangyue9607/BioNEV.git
     $ cd BioNEV
     $ pip install -e
@@ -44,6 +45,7 @@ You can install LAPINE by using git from our github repository at https://github
 you can easily install by git command.
 
 .. code-block::
+
     $ git clone https://github.com/rupinas/LAPINE.git
     $ cd LAPINE
     $ pip install
