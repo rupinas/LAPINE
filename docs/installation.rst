@@ -61,4 +61,4 @@ If you are not familar to git, you can download `zip file <https://github.com/ru
 Reference
 _________
 
-[1] `BioNEV <https://doi.org/10.1093/bioinformatics/btz718/>`_
+.. [1] `BioNEV <https://doi.org/10.1093/bioinformatics/btz718/>`_
