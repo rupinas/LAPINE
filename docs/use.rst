@@ -33,7 +33,7 @@ parameters
 Network embedding
 -----------------
 
-Run the following command in the Bionev environments (python 2.7) to generate the embedding of the constructed network.
+Run the following command in the BioNEV environments (python 2.7) to generate the embedding of the constructed network.
 
 .. code-block:: 
 
