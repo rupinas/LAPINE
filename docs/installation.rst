@@ -56,7 +56,7 @@ you can easily install by ``git`` command.
     $ cd LAPINE
     $ pip install
 
-If you are not familar to git, you can download `zip file <https://github.com/rupinas/LAPINE/archive/refs/heads/main.zip/>`_ and unzip it to your working directory.
+If you are not familar to ``git`` , you can download `zip file <https://github.com/rupinas/LAPINE/archive/refs/heads/main.zip/>`_ and unzip it to your working directory.
 
 Reference
 ---------
