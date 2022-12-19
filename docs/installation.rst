@@ -1,7 +1,7 @@
 Installation
 ============
 
-LAPINE was developed using Python, and requires a Python environment to run. The entire source code of LAPINE is open to the public on the ''GitHub'' repository.
+LAPINE was developed using Python, and requires a Python environment to run. The entire source code of LAPINE is open to the public on the ``GitHub`` repository.
 
 Enviroments
 -----------
