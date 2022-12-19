@@ -18,7 +18,7 @@ Conda is an open source package management system and environment management sys
 Packages
 ''''''''
 
-LAPINE requires the following Python packages and you can install them using conda.
+LAPINE requires the following Python packages and you can install them using ``conda``.
 
 - Numpy : 1.18.5
 - Pandas : 1.3.0
@@ -32,7 +32,7 @@ BioNEV
 ''''''
 LAPINE uses BioNEV [1]_ in embedding process.
 
-You can install Bionev by git command.
+You can install Bionev by ``git`` command.
 
 .. code-block::
 
@@ -48,7 +48,7 @@ Install LAPINE
 
 You can install LAPINE by using git from our github repository at https://github.com/rupinas/LAPINE.
 
-you can easily install by git command.
+you can easily install by ``git`` command.
 
 .. code-block::
 
