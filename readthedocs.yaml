@@ -7,7 +7,7 @@ version: 2
 
 # Set the version of Python and other tools you might need
 build:
-   os: uCentOS Linux release 7.4.1708
+   os: ubuntu-22.04
    tools:
      python: "3.7.3"
 
