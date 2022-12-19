@@ -43,9 +43,9 @@ parameters
 - input : path of input file (do not change)
 - output : path of output file (do not change)
 - directed : consider network as the directed network (do not change)
-- method : name of algorithm for the network embededing. The default value is 'node2vec' which is optimized by cross-validation
-- dimension : the dimensions of embedding for each node. The default value is 128 which is optimized by cross-validation
-- p, q : two parameters that control the biased random-walk procedure. A high p-value ensures that the walker is less likely to the visited node. A high q value ensures that the walker is more likely to visit the node which is close to the node walker just passed. The default values of p, q are 4 and 0.5 which is optimized by cross-validation.
+- method : name of algorithm for the network embededing. The default value is 'node2vec' which is optimized by cross-validation. See the links at the bottom of this section for other options.
+- dimension : the dimensions of embedding for each node. The default value is 128 which is optimized by cross-validation. The recommended parameter range is 16 to 512.
+- p, q : two parameters that control the biased random-walk procedure. A high p value ensures that the walker is less likely to visit the just visited node. A high q value ensures that the walker is more likely to visit the node which is close to the node walker just passed. The default values of p, q are 4 and 0.5 which is optimized by cross-validation. The recommended parameter range is 1/4 to 4.
 
 more details are available at https://github.com/xiangyue9607/BioNEV
 
@@ -60,7 +60,7 @@ Run model.py to predict the association score between ADRs and proteins.
   
 parameters
 **********
-- regularization : Inverse of regularization strength of logistic regression; must be a positive float. The default value is 0.1 which is optimized by cross-validation
+- regularization : Inverse of regularization strength of logistic regression; must be a positive float. The default value is 0.1 which is optimized by cross-validation. The recommended parameter range is 0.01 to 1.
 - threshold : This parameter determines the threshold for the reliability of information included in STRING and STITCH databases. (must be the same value used in network.py)
 
  
