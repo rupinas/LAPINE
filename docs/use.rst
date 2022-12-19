@@ -8,8 +8,6 @@ All LAPINE code must be run in the Conda virtual environment built during the in
 
 Run data_downlaod.py in your virtual python environment (above 3.7.2) constructed by ``conda`` to download all necessary files from the public database.
 
-Example:
-
 .. code-block::
 
   (.venv) python data_download.py
