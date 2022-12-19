@@ -39,10 +39,9 @@ Install LAPINE
 You can install LAPINE by using git from our github repository at https://github.com/rupinas/LAPINE
 
 you can easily install by git command
-.. code:: 
-    $ git clone https://github.com/rupinas/LAPINE.git
-    $ cd LAPINE
-    $ pip install
+>>> git clone https://github.com/rupinas/LAPINE.git
+>>> cd LAPINE
+>>> pip install
 
 If you are not familary to git, you can download zip file and unzip it your working directory.
 `LAPINE zip file <https://github.com/rupinas/LAPINE/archive/refs/heads/main.zip/>`_
