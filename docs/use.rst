@@ -54,8 +54,17 @@ more details are vailable at https://github.com/xiangyue9607/BioNEV
 ADR-protein relation prediction
 -------------------------------
 
-4.Run model.py
-  - Code for predicting the association score between ADRs and proteins
+Run model.py to predict the association score between ADRs and proteins.
+
+.. code-block:: 
+
+  (.venv) python network.py --regularization 0.1 --threshold 700
+  
+parameters
+**********
+- regularization : Inverse of regularization strength of logistic regression; must be a positive float
+- threshold : This parameter determines the threshold for the reliability of information included in STRING and STITCH databases. (must be the same value used in network.py)
+
  
 Output
 ------
@@ -63,4 +72,7 @@ Output
 - The output file predictions.csv contains scores for the associated ADRs (columns) for each protein (row).
 - The association score ranges from 0 to 1.
 - ADR terms are mapped to Preferred Terms (PTs) suggested by MedDRA, and proteins are mapped to Ensembl protein ID.
-- <pre><code>$ADR example : C0000727, C0000731 / Protein example : ENSP00000410269, ENSP00000379364 </code></pre>
+
+.. code-block:: 
+
+  ADR example : C0000727, C0000731 / Protein example : ENSP00000410269, ENSP00000379364
