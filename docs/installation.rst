@@ -53,8 +53,6 @@ you can easily install by ``git`` command.
 .. code-block::
 
     $ git clone https://github.com/rupinas/LAPINE.git
-    $ cd LAPINE
-    $ pip install
 
 If you are not familar to ``git`` , you can download `zip file <https://github.com/rupinas/LAPINE/archive/refs/heads/main.zip/>`_ and unzip it to your working directory.
 
