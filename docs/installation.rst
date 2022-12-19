@@ -30,7 +30,7 @@ LAPINE requires the following Python packages and you can install them using ``c
 
 BioNEV
 ''''''
-LAPINE uses ``BioNEV``[1] in embedding process.
+LAPINE uses ``BioNEV`` [1] in embedding process.
 
 You can install Bionev by ``git`` command.
 
