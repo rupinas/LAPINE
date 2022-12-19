@@ -24,10 +24,9 @@ LAPINE requires the following Python packages and you can install them using con
 - Pandas : 1.3.0
 - scikit-learn : 0.23.1
 
-example
 .. code-block::
 
-    $ conda install numpy=1.18.5
+    $ conda install numpy=1.18.5 (example)
 
 BioNEV
 ''''''
