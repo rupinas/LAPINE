@@ -43,12 +43,12 @@ You can install Bionev by ``git`` command.
 Detailed documnetation about ``BioNEV`` is available at https://github.com/xiangyue9607/BioNEV.
 
 
-Install LAPINE
+Acquire LAPINE
 --------------
 
-You can install LAPINE by using git from our github repository at https://github.com/rupinas/LAPINE.
+You can acquire source code of LAPINE by using git from our github repository at https://github.com/rupinas/LAPINE.
 
-you can easily install by ``git`` command.
+you can easily clone by ``git`` command. No other installation process is required.
 
 .. code-block::
 
