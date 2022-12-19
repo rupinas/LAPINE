@@ -30,7 +30,7 @@ LAPINE requires the following Python packages and you can install them using ``c
 
 BioNEV
 ''''''
-LAPINE uses ``BioNEV``[1]_ in embedding process.
+LAPINE uses ``BioNEV`` [1] in embedding process.
 
 You can install Bionev by ``git`` command.
 
@@ -61,4 +61,4 @@ If you are not familar to git, you can download `zip file <https://github.com/ru
 Reference
 ---------
 
-.. [1] `Yue, Xiang, et al. "Graph embedding on biomedical networks: methods, applications and evaluations." Bioinformatics 36.4 (2020): 1241-1251. <https://doi.org/10.1093/bioinformatics/btz718/>`_
+[1] `Yue, Xiang, et al. "Graph embedding on biomedical networks: methods, applications and evaluations." Bioinformatics 36.4 (2020): 1241-1251. <https://doi.org/10.1093/bioinformatics/btz718/>`_
