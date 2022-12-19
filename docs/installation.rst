@@ -30,7 +30,7 @@ LAPINE requires the following Python packages and you can install them using con
 
 BioNEV
 ''''''
-LAPINE uses `BioNEV <https://doi.org/10.1093/bioinformatics/btz718/>`_ in embedding process.
+LAPINE uses BioNEV[1]_ in embedding process.
 
 You can install Bionev by git command.
 
@@ -57,3 +57,8 @@ you can easily install by git command.
     $ pip install
 
 If you are not familar to git, you can download `zip file <https://github.com/rupinas/LAPINE/archive/refs/heads/main.zip/>`_ and unzip it to your working directory.
+
+Reference
+_________
+
+[1] `BioNEV <https://doi.org/10.1093/bioinformatics/btz718/>`_
