@@ -3,7 +3,7 @@
 
 >Results:  In this paper, we suggest a computational approach, Large-scale ADR related Proteins Identification with Network Embedding (LAPINE). LAPINE combines a novel concept called single-target compound with network embedding techniques to enable a large-scale analysis of relations with ADRs for any proteins in the protein-protein interaction network. We analyzed benchmark datasets to confirm the need for such wide scope of potential target proteins, as well as LAPINE’s capability for high recovery of known ADR-related proteins. Moreover, LAPINE provides more reliable predictions for ADR-related proteins (Value-added positive predictive value = 0.12), compared to a previously proposed method (p < 0.001). Furthermore, two case studies showed that most predictive proteins related to ADRs in LAPINE are supported by several literature evidence. Overall, LAPINE can provide reliable insights into the relationship between ADRs and proteome to understand mechanism of ADRs leading to its prevention.
 
-## Document
+## Documentation
 A detailed documentation is available at https://lapine.readthedocs.io/
 
 ## License
