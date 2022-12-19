@@ -39,7 +39,7 @@ Detailed documnetation about BioNEV is available at this link. https://github.co
 Install LAPINE
 --------------
 
-You can install LAPINE by using git from our github repository at https://github.com/rupinas/LAPINE
+You can install LAPINE by using git from our github repository at https://github.com/rupinas/LAPINE.
 
 you can easily install by git command
 
@@ -48,5 +48,4 @@ you can easily install by git command
     $ cd LAPINE
     $pip install
 
-If you are not familary to git, you can download zip file and unzip it your working directory.
-`LAPINE zip file <https://github.com/rupinas/LAPINE/archive/refs/heads/main.zip/>`_
+If you are not familary to git, you can download `zip file <https://github.com/rupinas/LAPINE/archive/refs/heads/main.zip/>`_ and unzip it your working directory.
